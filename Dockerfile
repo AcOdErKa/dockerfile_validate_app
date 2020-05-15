@@ -2,8 +2,8 @@ FROM node:12.2.0
 WORKDIR /app
 COPY package.json /app/package.json
 
-RUN 
+RUN npm install
 COPY . .
-EXPOS 3000
+EXPOSE 3000
 
-CMD  "start"
+CMD ["npm", "start"]
