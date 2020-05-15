@@ -1,0 +1,14 @@
+{
+  "name": "dockerfile-validate-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dockerfile-validate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhisek Karmakar",
+  "license": "ISC",
+  "dependencies": {
+    "validate-dockerfile": "^1.8.1"
+  }
+}
